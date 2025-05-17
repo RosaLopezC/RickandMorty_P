@@ -38,3 +38,21 @@ Puedes ver la aplicación desplegada en:
 
 ```bash
 git clone https://github.com/RosaLopezC/RickandMorty_P.git
+
+2. Instala dependencias
+
+```bash
+npm install
+Corre la aplicación localmente
+
+```bash
+npm run dev
+
+Abre el navegador en http://localhost:5173
+
+Despliegue
+La aplicación está desplegada en Vercel y se actualiza automáticamente al hacer push a la rama main.
+
+Autor
+Rosa López
+
