@@ -417,7 +417,7 @@ function App() {
         </h1>
 
         {activeTab === 'characters' && (
-          <div className="d-flex justify-content-center mb-5 animate__animated animate__fadeInUp">
+          <div className="d-flex justify-content-center mb-5 animate__animated animate__fadeIn">
             <div className="position-relative" style={{ width: '80%', maxWidth: '500px' }}>
               <input
                 type="text"
@@ -453,7 +453,8 @@ function App() {
           </div>
         )}
 
-        <div className="d-flex justify-content-center mb-4 gap-3">
+        {/* Modificar el contenedor de botones */}
+        <div className="d-flex justify-content-center mb-4 gap-2 gap-md-3 flex-wrap" style={{ padding: '0 1rem' }}>
           <button
             className={`btn ${activeTab === 'characters' ? 'btn-primary' : 'btn-outline-primary'}`}
             onClick={() => handleTabChange('characters')}
@@ -462,7 +463,11 @@ function App() {
               color: '#00bfff',
               border: '2px solid rgba(0,191,255,0.3)',
               borderRadius: '15px',
-              padding: '0.8rem 1.5rem'
+              padding: '0.6rem 1rem',  // Reducido para móviles
+              fontSize: '0.9rem',      // Reducido para móviles
+              width: '100%',           // Ancho completo en móviles
+              maxWidth: '150px',       // Máximo ancho en desktop
+              margin: '0.25rem'        // Margen para separación
             }}
           >
             Personajes
@@ -475,7 +480,11 @@ function App() {
               color: '#97ce4c',
               border: '2px solid rgba(151,206,76,0.3)',
               borderRadius: '15px',
-              padding: '0.8rem 1.5rem'
+              padding: '0.6rem 1rem',  // Reducido para móviles
+              fontSize: '0.9rem',      // Reducido para móviles
+              width: '100%',           // Ancho completo en móviles
+              maxWidth: '150px',       // Máximo ancho en desktop
+              margin: '0.25rem'        // Margen para separación
             }}
           >
             Ubicaciones
@@ -488,7 +497,11 @@ function App() {
               color: '#ff9800',
               border: '2px solid rgba(255,152,0,0.3)',
               borderRadius: '15px',
-              padding: '0.8rem 1.5rem'
+              padding: '0.6rem 1rem',  // Reducido para móviles
+              fontSize: '0.9rem',      // Reducido para móviles
+              width: '100%',           // Ancho completo en móviles
+              maxWidth: '150px',       // Máximo ancho en desktop
+              margin: '0.25rem'        // Margen para separación
             }}
           >
             Episodios
