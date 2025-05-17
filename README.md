@@ -37,4 +37,4 @@ Puedes ver la aplicación desplegada en:
 1. Clona este repositorio
 
 ```bash
-git clone https://github.com/tu_usuario/rick-and-morty-app.git
+git clone https://github.com/RosaLopezC/RickandMorty_P.git
