@@ -1,12 +1,40 @@
-# React + Vite
+# Rick and Morty Universe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una aplicación web desarrollada con React y Vite que consume la API pública de Rick and Morty. Permite buscar personajes, navegar entre páginas y muestra información detallada con un diseño responsivo y moderno.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## Expanding the ESLint configuration
+Puedes ver la aplicación desplegada en:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Link al sitio desplegado en Vercel]()
+
+---
+
+## Características
+
+- Consumo de API pública gratuita de Rick and Morty
+- Búsqueda dinámica por nombre de personaje
+- Paginación para navegar entre páginas
+- Diseño moderno y responsivo usando Bootstrap y animaciones CSS
+- Manejo de errores y carga visual amigable
+
+---
+
+## Tecnologías usadas
+
+- React 18
+- Vite
+- Bootstrap 5
+- Animate.css
+- Fetch API
+
+---
+
+## Instalación y ejecución local
+
+1. Clona este repositorio
+
+```bash
+git clone https://github.com/tu_usuario/rick-and-morty-app.git
