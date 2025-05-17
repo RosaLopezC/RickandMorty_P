@@ -8,7 +8,7 @@ Esta es una aplicación web desarrollada con React y Vite que consume la API pú
 
 Puedes ver la aplicación desplegada en:
 
-[Link al sitio desplegado en Vercel]()
+[https://rickand-morty-p.vercel.app/]()
 
 ---
 
